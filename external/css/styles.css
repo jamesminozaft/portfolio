@@ -313,3 +313,45 @@ html{
 .icon{
     font-size: 32px;
 }
+
+.clickable{
+    text-decoration:overline;
+}
+
+
+.modal{
+    font-family: 'Nunito' !important;
+}
+
+.login-body{
+    margin: 10px;
+    background-color: black !important;
+}
+
+.login-control{
+    background-color: black !important;
+    color: white !important;
+}
+
+.label{
+    display: block;
+    width: 100%;
+}
+
+.login-btn{
+    outline: none;
+    border:none;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.login-btn:hover{
+    background-color: black;
+    color: white;
+}
+.content{
+    background-color: black !important;
+}
